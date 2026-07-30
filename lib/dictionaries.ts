@@ -204,27 +204,27 @@ export const dictionaries: Record<Locale, Dictionary> = {
       categories: [
         {
           title: 'Backend',
-          items: ['Linux (Fedora/Ubuntu Server)', 'Docker', 'Kubernetes', 'AWS', 'Terraform', 'CI/CD (GitHub Actions)', 'Prometheus']
+          items: ['Python', 'Django', 'Java', 'Node.js']
         },
         {
-          title: 'Redes',
-          items: ['OpenWrt', 'Reverse Proxy (Nginx)', 'Cloudflare', 'DNS (Pi-hole)', 'VPN', 'Nmap']
+          title: 'Frontend',
+          items: ['React', 'Next.js', 'Angular', 'TypeScript']
         },
         {
-          title: 'Lenguajes Backend',
-          items: ['Java', 'Python (FastAPI)', 'PHP', 'Node.js / Express']
+          title: 'Bases de datos',
+          items: ['PostgreSQL', 'MySQL', 'SQLite']
         },
         {
-          title: 'Desarrollo Web',
-          items: ['React / Next.js', 'Tailwind CSS', 'JavaScript / TypeScript', 'Django', 'APIs REST']
+          title: 'Herramientas',
+          items: ['Git', 'Docker', 'Postman']
         },
         {
-          title: 'Bases de Datos',
-          items: ['PostgreSQL', 'SQLite']
+          title: 'Sistemas',
+          items: ['Ubuntu', 'Fedora', 'Windows']
         },
         {
-          title: 'Herramientas y Scripting',
-          items: ['Git / GitHub', 'Bash/Shell', 'Lua', 'Postman']
+          title: 'Metodologías y Arquitectura',
+          items: ['Scrum']
         }
       ]
     },
