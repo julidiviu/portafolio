@@ -115,8 +115,8 @@ export default function Skills({ lang }: { lang: Locale }) {
       <div className="bento-grid">
         {dict.categories.map((category: any, idx: number) => {
           const titleLower = category.title.toLowerCase();
-          const isMain = titleLower.includes('sistema') || titleLower.includes('infra');
-          const isWide = titleLower.includes('desarrollo') || titleLower.includes('web');
+          const isMain = titleLower.includes('Backend') || titleLower.includes('Backend');
+          const isWide = titleLower.includes('Frontend') || titleLower.includes('Frontend');
           
           let bentoClass = 'bento-item';
           if (isMain) bentoClass += ' bento-wide tech-card';

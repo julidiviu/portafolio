@@ -198,12 +198,12 @@ export const dictionaries: Record<Locale, Dictionary> = {
     },
     skills: {
       title: 'Habilidades',
-      kicker: 'Mi arsenal',
-      focus: 'Perfil: Inclinación técnica hacia el backend y la infraestructura, complementado con bases esenciales de desarrollo frontend.',
-      intro: 'Tecnologías y herramientas que utilizo en mi día a día.',
+      kicker: 'TECNOLOGÍAS',
+      focus: 'Estas son las principales tecnologías y herramientas con las que desarrollo aplicaciones web modernas, escalables y mantenibles.',
+      intro: 'En constante aprendizaje y mejorando mis habilidades.',
       categories: [
         {
-          title: 'Sistemas e Infraestructura',
+          title: 'Backend',
           items: ['Linux (Fedora/Ubuntu Server)', 'Docker', 'Kubernetes', 'AWS', 'Terraform', 'CI/CD (GitHub Actions)', 'Prometheus']
         },
         {
