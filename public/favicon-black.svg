@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="DP favicon black">
+  <rect width="512" height="512" fill="none"/>
+  <text
+    x="256"
+    y="255"
+    text-anchor="middle"
+    dominant-baseline="central"
+    fill="#000000"
+    font-family="'Source Sans 3', sans-serif"
+    font-size="346"
+    font-weight="700"
+    letter-spacing="-30"
+  >DP.</text>
+</svg>
