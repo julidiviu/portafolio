@@ -169,7 +169,7 @@ export const dictionaries: Record<Locale, Dictionary> = {
       photo_alt: 'Retrato de Julian Cañar',
       linkedin_url: 'https://www.linkedin.com/in/julian-canar-stanxed/',
       github_url: 'https://github.com/julidiviu',
-      cv_url: '/media/cv/Daniel_Perez_CV_EN.pdf',
+      cv_url: '/media/cv/Julian_Canar_CV_ES.pdf',
       linkedin_label: 'LinkedIn',
       github_label: 'GitHub',
     },
