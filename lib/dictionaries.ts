@@ -231,44 +231,50 @@ export const dictionaries: Record<Locale, Dictionary> = {
     experience: {
       title: 'Experiencia',
       kicker: 'Trayectoria',
-      intro: 'La etapa actual de mi formación académica.',
+      intro: 'Experiencias que han fortalecido mis habilidades en desarrollo web, trabajo en equipo y resolución de problemas.',
       items: [
         {
-          date: '2024 - 2028',
-          role: 'Estudiante de Ingeniería de Software',
-          company: 'Universidad Cooperativa De Colombia',
-          desc: 'Adquiriendo fundamentos en algoritmia, bases de datos y arquitectura, complementando la teoría con interés propio por la infraestructura y redes.'
+          date: 'Nov. 2025 – Abr. 2026',
+          role: 'Desarrollador Full Stack',
+          company: 'IPSUS S.A.S.',
+          desc: 'Participé en el desarrollo de una plataforma web para la gestión administrativa de IPSUS utilizando Django, Angular y PostgreSQL. Implementé funcionalidades backend y frontend, autenticación con JWT, estadisticas y mejoras en la experiencia de usuario.'
+        },
+        {
+          date:'2025 – 2026',
+          role: 'Monitor Académico',
+          company: 'Universidad de Nariño',
+          desc: 'Participé como monitor académico en el desarrollo de un sistema web para la gestión de préstamos e inventario de equipos tecnológicos en la Universidad de Nariño utilizando Django REST Framework, Angular y PostgreSQL bajo metodología Scrum.'
         }
       ]
     },
     projects: {
       title: 'Proyectos',
-      kicker: 'Mi codigo',
-      intro: 'Una selección de trabajos en los que he aplicado mis conocimientos.',
+      kicker: 'PORTAFOLIO',
+      intro: 'Estos son algunos de los proyectos que mejor representan mi experiencia desarrollando',
       items: [
         {
-          title: 'UniShop',
-          desc: 'Plataforma de comercio electrónico diseñada para la comunidad universitaria, facilitando la compra y venta de productos entre estudiantes.',
-          repo: 'https://github.com/Whatfck/UniShop',
-          view: 'https://uni-shop-frontend.vercel.app/',
-          image_url: '/media/projects/UniShop.png',
-          image_alt: 'Vista previa del proyecto UniShop'
+          title: 'Sistema de Préstamos e Inventario',
+          desc: 'Aplicación web desarrollada para la Universidad de Nariño que permite gestionar el préstamo de equipos, controlar el inventario, administrar usuarios y generar constancias de forma automática.',
+          repo: 'https://github.com/andreaeraso/inventario_septiembre',
+          view: 'https://uni-shop-frontend.vercel.app/', //ACTUALIZAR
+          image_url: '/media/projects/Prestamos-Udenar.png',
+          image_alt: 'Vista previa del proyecto Sistema de Préstamos e Inventario'
         },
         {
-          title: 'Reproductor Web',
-          desc: 'Aplicación de reproducción de audio moderna con interfaz intuitiva, soporte para listas de reproducción y controles avanzados.',
-          repo: 'https://github.com/Whatfck/reproductor-web',
-          view: 'https://reproductor-web-omega.vercel.app/',
-          image_url: '/media/projects/reproductor-web.png',
-          image_alt: 'Vista previa del proyecto Reproductor Web'
+          title: 'Plataforma IPSUS',
+          desc: 'Desarrollo de una plataforma web para IPSUS enfocada en la gestión de información y procesos internos, implementando autenticación, administración de datos y funcionalidades adaptadas a las necesidades del cliente.',
+          repo: 'https://gitlab.com/digitalroot-group/ipsus-frontend',
+          view: 'https://reproductor-web-omega.vercel.app/', // ACTUALIZAR
+          image_url: '/media/projects/Ipsus.png',
+          image_alt: 'Vista previa del proyecto ipsus'
         },
         {
           title: 'Portafolio',
           desc: 'Portafolio personal multilenguaje construido con Next.js, diseñado para mostrar perfil profesional, experiencia, habilidades y proyectos.',
-          repo: 'https://github.com/Whatfck/portafolio',
-          view: 'https://portafolio-daniel-perez.vercel.app/',
+          repo: 'https://github.com/julidiviu/portafolio',
+          view: 'https://portafolio-daniel-perez.vercel.app/', // ACTUALIZAR
           image_url: '/media/projects/portafolio.png',
-          image_alt: 'Vista previa del proyecto Portafolio'
+          image_alt: 'Vista previa del proyecto Portafolio' 
         }
       ],
       repo_label: 'Repo',
@@ -338,8 +344,8 @@ export const dictionaries: Record<Locale, Dictionary> = {
     hero: {
       eyebrow: '',
       name: 'Julian Cañar',
-      role: 'Software Engineering Student',
-      copy: 'I work with software, networking, and servers, driven by a desire to understand how things work and to push systems to the point where they truly make sense.',
+      role: 'Full Stack Developer',
+      copy: 'I enjoy developing web applications that combine a solid backend with functional interfaces and a great user experience. I like working on both backend and frontend, turning real-world problems into practical solutions while continuously learning and improving my skills.',
       btn_cv: 'View CV',
       photo_url: '/media/hero/julian-canar.jpg',
       photo_alt: 'Portrait of Julian Cañar',
@@ -351,102 +357,149 @@ export const dictionaries: Record<Locale, Dictionary> = {
     },
     about: {
       title: 'About Me',
-      kicker: 'My Story',
+      kicker: 'Who am I?',
       location_title: 'Location',
-      location_value: 'Colombia · UTC-5',
-      location_note: 'Local reference time for coordination and remote work.',
-      lead: 'HELLO!!! I\'m Julian Cañar.',
-      p1: 'My childhood curiosity about how things work led me into the world of computing, going from building servers as a hobby to formalizing my passion by studying Software Engineering.',
-      p2: 'I\'m passionate about the "behind the scenes" of technology: the infrastructure, the logic, and the architecture. I enjoy breaking down complex problems to build efficient, scalable, and stable solutions, making sure that everything, from the ground up, simply works.',
+      location_value: 'Pasto · Colombia',
+      location_note: 'Available for remote, hybrid, or on-site work.',
+    
+      lead: "HELLO! I'm Julian Cañar, a Systems Engineer.",
+    
+      p1: "I graduated from the University of Nariño and enjoy developing technological solutions that solve real-world problems. During my academic journey, I participated in both academic and professional projects that strengthened my knowledge of software development, databases, and web applications.",
+    
+      p2: "My main interest is backend development, although I also have experience with frontend technologies and databases. I have worked with technologies such as Java, Python, Django, Angular, PostgreSQL, Docker, and Git. I especially enjoy designing organized, scalable, and maintainable applications. I am always eager to learn new technologies and take on new challenges.",
+    
       languages_title: 'Languages',
+    
       languages: [
         { name: 'Spanish', level: '100%', label: 'Native' },
-        { name: 'English', level: '50%', label: 'Intermediate' }
+        { name: 'English', level: '70%', label: 'B2' }
       ],
-      highlight_title: 'Current Goal',
-      highlight_text: 'I explore various areas of development due to my academic background, but my natural focus is on backend, infrastructure, and networks. I am interested in building efficient, well-structured, and reliable systems over visual elements.',
-      pill1_title: 'Style',
-      pill1_text: 'Pragmatic and results-oriented, with a focus on optimization. I seek maximum performance with the least amount of resources, constantly refining until real quality is achieved.',
+    
+      highlight_title: 'Professional Goal',
+    
+      highlight_text: 'I am looking for an opportunity where I can continue growing as a software developer, contribute to meaningful projects, and learn from experienced teams while bringing commitment, responsibility, and a constant desire to improve.',
+    
+      pill1_title: 'My Working Style',
+    
+      pill1_text: 'I enjoy building software in an organized way, writing clean code, and prioritizing maintainable solutions. I like analyzing problems before coding and finding the most efficient way to solve them.',
+    
       pill2_title: '',
       pill2_text: '',
-      pill3_title: 'Off-screen',
-      pill3_text: 'I enjoy video games, music (guitar), cooking, and hanging out with friends. I also like disassembling, repairing, and optimizing objects as part of my learning process.',
+    
+      pill3_title: 'Beyond Coding',
+    
+      pill3_text: 'In my free time I enjoy video games, playing guitar, listening to music, watching movies, creating multimedia content, and spending time with family and friends. I also enjoy exploring new tools that help me improve my productivity and continue learning.',
     },
+    
     skills: {
       title: 'Skills',
-      kicker: 'Tools',
-      focus: 'Profile: Technical inclination towards backend and infrastructure, complemented by essential frontend development skills.',
-      intro: 'Technologies and tools I use on a daily basis.',
+      kicker: 'TECHNOLOGIES',
+    
+      focus: 'These are the main technologies and tools I use to develop modern, scalable, and maintainable web applications.',
+    
+      intro: 'Continuously learning and improving my skills.',
+    
       categories: [
         {
-          title: 'Systems & Infrastructure',
-          items: ['Linux (Fedora/Ubuntu Server)', 'Docker', 'Kubernetes', 'AWS', 'Terraform', 'CI/CD (GitHub Actions)', 'Prometheus']
+          title: 'Backend',
+          items: ['Python', 'Django', 'Java', 'Node.js']
         },
         {
-          title: 'Networking',
-          items: ['OpenWrt', 'Reverse Proxy (Nginx)', 'Cloudflare', 'DNS (Pi-hole)', 'VPN', 'Nmap']
-        },
-        {
-          title: 'Backend Languages',
-          items: ['Java', 'Python (FastAPI)', 'PHP', 'Node.js / Express']
-        },
-        {
-          title: 'Web Development',
-          items: ['React / Next.js', 'Tailwind CSS', 'JavaScript / TypeScript', 'Django', 'REST APIs']
+          title: 'Frontend',
+          items: ['React', 'Next.js', 'Angular', 'TypeScript']
         },
         {
           title: 'Databases',
-          items: ['PostgreSQL', 'SQLite']
+          items: ['PostgreSQL', 'MySQL', 'SQLite']
         },
         {
-          title: 'Tools & Scripting',
-          items: ['Git / GitHub', 'Bash/Shell', 'Lua', 'Postman']
+          title: 'Tools',
+          items: ['Git', 'Docker', 'Postman']
+        },
+        {
+          title: 'Operating Systems',
+          items: ['Ubuntu', 'Fedora', 'Windows']
+        },
+        {
+          title: 'Methodologies & Architecture',
+          items: ['Scrum']
         }
       ]
     },
+    
     experience: {
       title: 'Experience',
-      kicker: 'Path',
-      intro: 'The current stage of my academic training.',
+      kicker: 'Career',
+      intro: 'Experiences that have strengthened my web development, teamwork, and problem-solving skills.',
+    
       items: [
         {
-          date: '2024 - 2028',
-          role: 'Software Engineering Student',
-          company: 'Universidad Cooperativa De Colombia',
-          desc: 'Acquiring solid fundamentals in algorithms, databases, and architecture, supplementing theory with a self-driven interest in infrastructure and networks.'
+          date: 'Nov. 2025 – Apr. 2026',
+          role: 'Full Stack Developer',
+          company: 'IPSUS S.A.S.',
+          desc: 'Participated in the development of a web platform for IPSUS using Django, Angular, and PostgreSQL. Implemented backend and frontend features, JWT authentication, statistics modules, and user experience improvements.'
+        },
+    
+        {
+          date: '2025 – 2026',
+          role: 'Teaching Assistant',
+          company: 'University of Nariño',
+    
+          desc: 'Worked as a teaching assistant in the development of a web-based equipment loan and inventory management system using Django REST Framework, Angular, PostgreSQL, and the Scrum methodology.'
         }
       ]
     },
+    
     projects: {
       title: 'Projects',
-      kicker: 'My code',
-      intro: 'A selection of works where I have applied my knowledge.',
+      kicker: 'PORTFOLIO',
+    
+      intro: 'These are some of the projects that best represent my experience developing software solutions and modern web applications.',
+    
       items: [
         {
-          title: 'UniShop',
-          desc: 'E-commerce platform designed for the university community, facilitating the purchase and sale of products among students.',
-          repo: 'https://github.com/Whatfck/UniShop',
+          title: 'Loan & Inventory Management System',
+    
+          desc: 'A web application developed for the University of Nariño to manage equipment loans, inventory, users, and automatically generate loan certificates.',
+    
+          repo: 'https://github.com/andreaeraso/inventario_septiembre',
+    
           view: 'https://uni-shop-frontend.vercel.app/',
-          image_url: '/media/projects/UniShop.png',
-          image_alt: 'Project preview for UniShop'
+    
+          image_url: '/media/projects/Prestamos-Udenar.png',
+    
+          image_alt: 'Loan & Inventory Management System'
         },
+    
         {
-          title: 'Web Player',
-          desc: 'Modern audio playback application with an intuitive interface, playlist support, and advanced controls.',
-          repo: 'https://github.com/Whatfck/reproductor-web',
+          title: 'IPSUS Platform',
+    
+          desc: 'Development of a web platform for IPSUS focused on managing internal information and business processes, including authentication, data management, and customized functionalities based on the client’s needs.',
+    
+          repo: 'https://gitlab.com/digitalroot-group/ipsus-frontend',
+    
           view: 'https://reproductor-web-omega.vercel.app/',
-          image_url: '/media/projects/reproductor-web.png',
-          image_alt: 'Project preview for Web Player'
+    
+          image_url: '/media/projects/Ipsus.png',
+    
+          image_alt: 'IPSUS Platform'
         },
+    
         {
-          title: 'Portfolio',
-          desc: 'Multilingual personal portfolio built with Next.js to showcase professional profile, experience, skills, and projects.',
-          repo: 'https://github.com/Whatfck/portafolio',
+          title: 'Personal Portfolio',
+    
+          desc: 'A multilingual personal portfolio built with Next.js to showcase my professional profile, experience, technical skills, and projects through a modern, responsive interface.',
+    
+          repo: 'https://github.com/julidiviu/portafolio',
+    
           view: 'https://portafolio-daniel-perez.vercel.app/',
+    
           image_url: '/media/projects/portafolio.png',
-          image_alt: 'Project preview for Portfolio'
+    
+          image_alt: 'Personal Portfolio'
         }
       ],
+    
       repo_label: 'Repo',
       view_label: 'View',
     },

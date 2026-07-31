@@ -255,7 +255,7 @@ export default function Navbar({ lang }: { lang: Locale }) {
         <nav className="navbar" aria-label="Navegacion principal">
           
           <div className="nav-brand">
-            <strong>DP.</strong>
+            <strong>JC.</strong>
           </div>
 
           <ul className="navbar-links" ref={navRef}>
