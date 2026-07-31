@@ -256,7 +256,7 @@ export const dictionaries: Record<Locale, Dictionary> = {
           title: 'Sistema de Préstamos e Inventario',
           desc: 'Aplicación web desarrollada para la Universidad de Nariño que permite gestionar el préstamo de equipos, controlar el inventario, administrar usuarios y generar constancias de forma automática.',
           repo: 'https://github.com/andreaeraso/inventario_septiembre',
-          view: 'https://uni-shop-frontend.vercel.app/', //ACTUALIZAR
+          view: '', //ACTUALIZAR
           image_url: '/media/projects/Prestamos-Udenar.png',
           image_alt: 'Vista previa del proyecto Sistema de Préstamos e Inventario'
         },
@@ -264,7 +264,7 @@ export const dictionaries: Record<Locale, Dictionary> = {
           title: 'Plataforma IPSUS',
           desc: 'Desarrollo de una plataforma web para IPSUS enfocada en la gestión de información y procesos internos, implementando autenticación, administración de datos y funcionalidades adaptadas a las necesidades del cliente.',
           repo: 'https://gitlab.com/digitalroot-group/ipsus-frontend',
-          view: 'https://reproductor-web-omega.vercel.app/', // ACTUALIZAR
+          view: '', // ACTUALIZAR
           image_url: '/media/projects/Ipsus.png',
           image_alt: 'Vista previa del proyecto ipsus'
         },
@@ -272,7 +272,7 @@ export const dictionaries: Record<Locale, Dictionary> = {
           title: 'Portafolio',
           desc: 'Portafolio personal multilenguaje construido con Next.js, diseñado para mostrar perfil profesional, experiencia, habilidades y proyectos.',
           repo: 'https://github.com/julidiviu/portafolio',
-          view: 'https://portafolio-daniel-perez.vercel.app/', // ACTUALIZAR
+          view: '', // ACTUALIZAR
           image_url: '/media/projects/portafolio.png',
           image_alt: 'Vista previa del proyecto Portafolio' 
         }
@@ -283,16 +283,16 @@ export const dictionaries: Record<Locale, Dictionary> = {
     testimonials: {
       title: 'Testimonios',
       kicker: 'Referencias',
-      intro: 'Lo que dicen las personas con las que he trabajado o estudiado a lo largo de mis proyectos.',
-      t1_text: '"Es una persona muy dedicada y comprometida con su trabajo. Siempre está dispuesto a ayudar, propone buenas ideas y se enfoca en hacer las cosas bien. Sin duda, alguien con quien es fácil y agradable trabajar.”',
-      t1_author: 'Lorena Paz',
-      t1_role: 'Arquitecta/ Independiente',
-      t2_text: '"Daniel es una persona inteligente, dedicada y proactiva, con facilidad para aprender y afrontar retos. Destaca por su disciplina, compromiso y capacidad de aplicar sus conocimientos en la práctica.',
-      t2_author: 'Julian Cañarar',
-      t2_role: 'Ingeniero de Sistemas / Independiente',
-      t3_text: '"Daniel demostró ser un profesional serio, responsable y comprometido con su trabajo. Se destacó por su capacidad de análisis, su claridad al comunicar la información y su enfoque en aportar soluciones útiles. Es una persona confiable y organizada, con quien es fácil trabajar."',
-      t3_author: 'Sandra Muncayo',
-      t3_role: 'Médico / Jefatura Servicios de Salud Red Medicron',
+      intro: 'Lo que dicen las personas con las que he trabajado.',
+      t1_text: '"Durante el tiempo que tuve la oportunidad de conocerlo, demostró ser una persona íntegra, honesta, responsable y comprometida con sus labores. Se caracteriza por su actitud proactiva, su disposición para aprender, su capacidad de trabajo en equipo y su facilidad para adaptarse a nuevos retos. Asimismo, es una persona puntual, respetuosa y confiable, que desempeña sus responsabilidades con dedicación y profesionalismo, generando confianza y aportando positivamente a cualquier equipo de trabajo.”',
+      t1_author: 'Gloria Rodriguez Vallejo',
+      t1_role: 'Secretaria Departamento de Sistemas / Universidad de Nariño',
+      t2_text: '"Durante el tiempo en que se desempeñó como monitor, demostró ser una persona responsable, comprometida y con una excelente disposición para el trabajo. En el desarrollo de sus funciones siempre cumplió con las actividades asignadas, demostrando iniciativa, interés por aprender y capacidad para resolver las situaciones que se presentaban. Asimismo, mantuvo una actitud respetuosa, colaborativa y profesional en su relación con docentes, estudiantes y demás integrantes de la facultad. Considero que Julián posee las competencias, la responsabilidad y la actitud necesarias para desempeñarse de manera satisfactoria en diferentes entornos laborales."',
+      t2_author: 'Manuel Bolaños',
+      t2_role: 'Director Departamento de Sistemas / Universidad de Nariño',
+      t3_text: '"Conozco a Julián desde hace algún tiempo y puedo decir que es una persona responsable, honesta y comprometida con lo que hace. Siempre se ha caracterizado por su buena disposición para aprender, trabajar en equipo y asumir nuevos retos. Es alguien confiable, respetuoso y dedicado, por lo que no dudo en recomendarlo tanto en el ámbito personal como profesional."',
+      t3_author: 'Danilo Santacruz',
+      t3_role: 'Ingeniero Ambiental / Independiente',
     },
     contact: {
       title: 'Contacto',
