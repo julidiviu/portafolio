@@ -313,7 +313,7 @@ export const dictionaries: Record<Locale, Dictionary> = {
       c2_title: 'LinkedIn',
       c2_desc: 'Contacto profesional.',
       c2_href: 'https://www.linkedin.com/in/julian-canar-stanxed/',
-      c2_text: 'llinkedin.com/in/julian-canar-stanxed',
+      c2_text: 'linkedin.com/in/julian-canar-stanxed',
       c3_title: 'GitHub',
       c3_desc: 'Repositorio de proyectos.',
       c3_href: 'https://github.com/julidiviu',
@@ -349,9 +349,9 @@ export const dictionaries: Record<Locale, Dictionary> = {
       btn_cv: 'View CV',
       photo_url: '/media/hero/julian-canar.jpg',
       photo_alt: 'Portrait of Julian Cañar',
-      linkedin_url: 'https://www.linkedin.com/in/daniel-perez-blank',
-      github_url: 'https://github.com/Whatfck',
-      cv_url: '/media/cv/Daniel_Perez_CV_EN.pdf',
+      linkedin_url: 'https://www.linkedin.com/in/julian-canar-stanxed/',
+      github_url: 'https://github.com/julidiviu',
+      cv_url: '/media/cv/Julian_Canar_CV_ES.pdf',
       linkedin_label: 'LinkedIn',
       github_label: 'GitHub',
     },
@@ -366,7 +366,7 @@ export const dictionaries: Record<Locale, Dictionary> = {
     
       p1: "I graduated from the University of Nariño and enjoy developing technological solutions that solve real-world problems. During my academic journey, I participated in both academic and professional projects that strengthened my knowledge of software development, databases, and web applications.",
     
-      p2: "My main interest is backend development, although I also have experience with frontend technologies and databases. I have worked with technologies such as Java, Python, Django, Angular, PostgreSQL, Docker, and Git. I especially enjoy designing organized, scalable, and maintainable applications. I am always eager to learn new technologies and take on new challenges.",
+      p2: "My main interest is backend development, although I also have experience in frontend development and databases. I have worked with technologies such as Java, Python, Django, Angular, PostgreSQL, Docker, and Git, and I particularly enjoy designing organized, scalable, and maintainable applications. I am always willing to learn new tools and take on new challenges.",
     
       languages_title: 'Languages',
     
@@ -377,18 +377,18 @@ export const dictionaries: Record<Locale, Dictionary> = {
     
       highlight_title: 'Professional Goal',
     
-      highlight_text: 'I am looking for an opportunity where I can continue growing as a software developer, contribute to meaningful projects, and learn from experienced teams while bringing commitment, responsibility, and a constant desire to improve.',
+      highlight_text: 'I am looking for an opportunity where I can continue growing as a software developer, participate in projects, and learn from experienced teams while bringing commitment, responsibility, and a constant willingness to learn.',
     
       pill1_title: 'My Working Style',
     
-      pill1_text: 'I enjoy building software in an organized way, writing clean code, and prioritizing maintainable solutions. I like analyzing problems before coding and finding the most efficient way to solve them.',
+      pill1_text: 'I like developing software in an organized way, writing clean code, and prioritizing maintainable solutions. I enjoy analyzing problems before programming and finding the most efficient alternative to solve them.',
     
       pill2_title: '',
       pill2_text: '',
     
       pill3_title: 'Beyond Coding',
     
-      pill3_text: 'In my free time I enjoy video games, playing guitar, listening to music, watching movies, creating multimedia content, and spending time with family and friends. I also enjoy exploring new tools that help me improve my productivity and continue learning.',
+      pill3_text: 'In my free time, I enjoy video games, playing guitar, music in general, movies, multimedia creation, and spending time with family and friends. I also like exploring tools that help me improve my productivity and keep learning.',
     },
     
     skills: {
@@ -430,14 +430,14 @@ export const dictionaries: Record<Locale, Dictionary> = {
     experience: {
       title: 'Experience',
       kicker: 'Career',
-      intro: 'Experiences that have strengthened my web development, teamwork, and problem-solving skills.',
+      intro: 'Experiences that have strengthened my skills in web development, teamwork, and problem-solving.',
     
       items: [
         {
           date: 'Nov. 2025 – Apr. 2026',
           role: 'Full Stack Developer',
           company: 'IPSUS S.A.S.',
-          desc: 'Participated in the development of a web platform for IPSUS using Django, Angular, and PostgreSQL. Implemented backend and frontend features, JWT authentication, statistics modules, and user experience improvements.'
+          desc: 'Participated in the development of a web platform for the administrative management of IPSUS using Django, Angular, and PostgreSQL. Implemented backend and frontend features, JWT authentication, statistics, and user experience improvements.'
         },
     
         {
@@ -445,7 +445,7 @@ export const dictionaries: Record<Locale, Dictionary> = {
           role: 'Teaching Assistant',
           company: 'University of Nariño',
     
-          desc: 'Worked as a teaching assistant in the development of a web-based equipment loan and inventory management system using Django REST Framework, Angular, PostgreSQL, and the Scrum methodology.'
+          desc: 'Participated as an academic monitor in the development of a web system for managing loans and inventory of technological equipment at the University of Nariño using Django REST Framework, Angular, and PostgreSQL under the Scrum methodology.'
         }
       ]
     },
@@ -464,7 +464,7 @@ export const dictionaries: Record<Locale, Dictionary> = {
     
           repo: 'https://github.com/andreaeraso/inventario_septiembre',
     
-          view: 'https://uni-shop-frontend.vercel.app/',
+          view: '',
     
           image_url: '/media/projects/Prestamos-Udenar.png',
     
@@ -478,7 +478,7 @@ export const dictionaries: Record<Locale, Dictionary> = {
     
           repo: 'https://gitlab.com/digitalroot-group/ipsus-frontend',
     
-          view: 'https://reproductor-web-omega.vercel.app/',
+          view: '',
     
           image_url: '/media/projects/Ipsus.png',
     
@@ -492,7 +492,7 @@ export const dictionaries: Record<Locale, Dictionary> = {
     
           repo: 'https://github.com/julidiviu/portafolio',
     
-          view: 'https://portafolio-daniel-perez.vercel.app/',
+          view: '',
     
           image_url: '/media/projects/portafolio.png',
     
@@ -506,16 +506,16 @@ export const dictionaries: Record<Locale, Dictionary> = {
     testimonials: {
       title: 'Testimonials',
       kicker: 'References',
-      intro: 'What people I have worked or studied with say throughout my projects.',
-      t1_text: '"He is a very dedicated person and committed to his work. He is always willing to help, proposes good ideas, and focuses on doing things right. Undoubtedly, someone who is easy and pleasant to work with."',
-      t1_author: 'Lorena Paz',
-      t1_role: 'Architect / Freelance',
-      t2_text: '"Daniel is an intelligent, dedicated, and proactive person, with a natural ability to learn and face challenges. He stands out for his discipline, commitment, and ability to apply his knowledge in practice."',
-      t2_author: 'Julian Cañarar',
-      t2_role: 'Systems Engineer / Freelance',
-      t3_text: '"Daniel proved to be a serious, responsible professional committed to his work. He stood out for his analytical skills, his clarity in communicating information, and his focus on providing useful solutions. He is a reliable and organized person who is easy to work with."',
-      t3_author: 'Sandra Muncayo',
-      t3_role: 'Doctor / Head of Health Services, Red Medicron',
+      intro: 'What the people I have worked with say.',
+      t1_text: '"During the time I had the opportunity to know him, he proved to be an honest, responsible, and committed person. He is characterized by his proactive attitude, willingness to learn, ability to work in a team, and ease of adapting to new challenges. He is also punctual, respectful, and trustworthy, carrying out his responsibilities with dedication and professionalism, building trust and contributing positively to any team."',
+      t1_author: 'Gloria Rodriguez Vallejo',
+      t1_role: 'Secretary, Department of Systems / University of Nariño',
+      t2_text: '"During the time he worked as a monitor, he proved to be a responsible and committed person with an excellent willingness to work. In carrying out his duties, he always completed assigned activities, demonstrating initiative, an interest in learning, and the ability to solve situations as they arose. He also maintained a respectful, collaborative, and professional attitude in his relationships with professors, students, and other members of the faculty. I believe Julián has the skills, responsibility, and attitude needed to perform satisfactorily in different work environments."',
+      t2_author: 'Manuel Bolaños',
+      t2_role: 'Director, Department of Systems / University of Nariño',
+      t3_text: '"I have known Julián for some time and can say that he is a responsible, honest, and committed person. He has always been characterized by his willingness to learn, work in a team, and take on new challenges. He is trustworthy, respectful, and dedicated, so I do not hesitate to recommend him both personally and professionally."',
+      t3_author: 'Danilo Santacruz',
+      t3_role: 'Environmental Engineer / Independent',
     },
     contact: {
       title: 'Contact',
@@ -534,13 +534,13 @@ export const dictionaries: Record<Locale, Dictionary> = {
       form_error: 'Message could not be sent. Please try again in a few minutes.',
       form_error_required: 'Please complete name, email, and message to continue.',
       c2_title: 'LinkedIn',
-      c2_desc: 'Professional contact and networking.',
-      c2_href: 'https://www.linkedin.com/in/daniel-perez-blank',
-      c2_text: 'linkedin.com/in/daniel-perez-blank',
+      c2_desc: 'Professional contact.',
+      c2_href: 'https://www.linkedin.com/in/julian-canar-stanxed/',
+      c2_text: 'linkedin.com/in/julian-canar-stanxed',
       c3_title: 'GitHub',
-      c3_desc: 'Repository for projects and experiments.',
-      c3_href: 'https://github.com/Whatfck',
-      c3_text: 'github.com/Whatfck',
+      c3_desc: 'Project repository.',
+      c3_href: 'https://github.com/julidiviu',
+      c3_text: 'github.com/julidiviu',
       note1: 'Available for freelance and remote collaborations.',
       note2: 'Estimated response time: 24 to 48 hours.',
     },
