@@ -263,7 +263,7 @@ export const dictionaries: Record<Locale, Dictionary> = {
         {
           title: 'Plataforma IPSUS',
           desc: 'Desarrollo de una plataforma web para IPSUS enfocada en la gestión de información y procesos internos, implementando autenticación, administración de datos y funcionalidades adaptadas a las necesidades del cliente.',
-          repo: 'https://gitlab.com/digitalroot-group/ipsus-frontend',
+          repo: 'https://github.com/julidiviu/ipsus-frontend',
           view: '', // ACTUALIZAR
           image_url: '/media/projects/Ipsus.png',
           image_alt: 'Vista previa del proyecto ipsus'
@@ -476,7 +476,7 @@ export const dictionaries: Record<Locale, Dictionary> = {
     
           desc: 'Development of a web platform for IPSUS focused on managing internal information and business processes, including authentication, data management, and customized functionalities based on the client’s needs.',
     
-          repo: 'https://gitlab.com/digitalroot-group/ipsus-frontend',
+          repo: 'https://github.com/julidiviu/ipsus-frontend',
     
           view: '',
     
