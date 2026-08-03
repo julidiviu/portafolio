@@ -264,7 +264,7 @@ export const dictionaries: Record<Locale, Dictionary> = {
           title: 'Plataforma IPSUS',
           desc: 'Desarrollo de una plataforma web para IPSUS enfocada en la gestión de información y procesos internos, implementando autenticación, administración de datos y funcionalidades adaptadas a las necesidades del cliente.',
           repo: 'https://github.com/julidiviu/ipsus-frontend',
-          view: '', // ACTUALIZAR
+          view: 'https://ipsus-frontend.vercel.app', // ACTUALIZAR
           image_url: '/media/projects/Ipsus.png',
           image_alt: 'Vista previa del proyecto ipsus'
         },
@@ -478,7 +478,7 @@ export const dictionaries: Record<Locale, Dictionary> = {
     
           repo: 'https://github.com/julidiviu/ipsus-frontend',
     
-          view: '',
+          view: 'https://ipsus-frontend.vercel.app',
     
           image_url: '/media/projects/Ipsus.png',
     
