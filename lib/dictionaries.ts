@@ -272,7 +272,7 @@ export const dictionaries: Record<Locale, Dictionary> = {
           title: 'Portafolio',
           desc: 'Portafolio personal multilenguaje construido con Next.js, diseñado para mostrar perfil profesional, experiencia, habilidades y proyectos.',
           repo: 'https://github.com/julidiviu/portafolio',
-          view: '', // ACTUALIZAR
+          view: 'https://portafolio-julian-cannar.vercel.app/es', // ACTUALIZAR
           image_url: '/media/projects/portafolio.png',
           image_alt: 'Vista previa del proyecto Portafolio' 
         }
@@ -492,7 +492,7 @@ export const dictionaries: Record<Locale, Dictionary> = {
     
           repo: 'https://github.com/julidiviu/portafolio',
     
-          view: '',
+          view: 'https://portafolio-julian-cannar.vercel.app/es',
     
           image_url: '/media/projects/portafolio.png',
     
