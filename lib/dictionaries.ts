@@ -324,7 +324,7 @@ export const dictionaries: Record<Locale, Dictionary> = {
     footer: {
       rights: 'Todos los derechos reservados.',
       more_about_label: 'Mas Sobre mi',
-      more_about_href: 'https://linktr.ee/danielperzz'
+      more_about_href: 'https://linktr.ee/julidiviu'
     }
   },
   en: {
@@ -547,7 +547,7 @@ export const dictionaries: Record<Locale, Dictionary> = {
     footer: {
       rights: 'All rights reserved.',
       more_about_label: 'More about me',
-      more_about_href: 'https://linktr.ee/danielperzz'
+      more_about_href: 'https://linktr.ee/julidiviu'
     }
   }
 };
