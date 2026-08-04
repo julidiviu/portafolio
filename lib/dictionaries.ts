@@ -256,7 +256,7 @@ export const dictionaries: Record<Locale, Dictionary> = {
           title: 'Sistema de Préstamos e Inventario',
           desc: 'Aplicación web desarrollada para la Universidad de Nariño que permite gestionar el préstamo de equipos, controlar el inventario, administrar usuarios y generar constancias de forma automática.',
           repo: 'https://github.com/julidiviu/inventario-sisprestamos',
-          view: '', //ACTUALIZAR
+          view: 'https://inventario-sisprestamos.onrender.com', 
           image_url: '/media/projects/Prestamos-Udenar.png',
           image_alt: 'Vista previa del proyecto Sistema de Préstamos e Inventario'
         },
@@ -264,7 +264,7 @@ export const dictionaries: Record<Locale, Dictionary> = {
           title: 'Plataforma IPSUS',
           desc: 'Desarrollo de una plataforma web para IPSUS enfocada en la gestión de información y procesos internos, implementando autenticación, administración de datos y funcionalidades adaptadas a las necesidades del cliente.',
           repo: 'https://github.com/julidiviu/ipsus-frontend',
-          view: 'https://ipsus-frontend.vercel.app', // ACTUALIZAR
+          view: 'https://ipsus-frontend.vercel.app', 
           image_url: '/media/projects/Ipsus.png',
           image_alt: 'Vista previa del proyecto ipsus'
         },
@@ -272,7 +272,7 @@ export const dictionaries: Record<Locale, Dictionary> = {
           title: 'Portafolio',
           desc: 'Portafolio personal multilenguaje construido con Next.js, diseñado para mostrar perfil profesional, experiencia, habilidades y proyectos.',
           repo: 'https://github.com/julidiviu/portafolio',
-          view: 'https://portafolio-julian-cannar.vercel.app/es', // ACTUALIZAR
+          view: 'https://portafolio-julian-cannar.vercel.app/es', 
           image_url: '/media/projects/portafolio.png',
           image_alt: 'Vista previa del proyecto Portafolio' 
         }
@@ -464,7 +464,7 @@ export const dictionaries: Record<Locale, Dictionary> = {
     
           repo: 'https://github.com/julidiviu/inventario-sisprestamos',
     
-          view: '',
+          view: 'https://inventario-sisprestamos.onrender.com',
     
           image_url: '/media/projects/Prestamos-Udenar.png',
     
