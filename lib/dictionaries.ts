@@ -255,7 +255,7 @@ export const dictionaries: Record<Locale, Dictionary> = {
         {
           title: 'Sistema de Préstamos e Inventario',
           desc: 'Aplicación web desarrollada para la Universidad de Nariño que permite gestionar el préstamo de equipos, controlar el inventario, administrar usuarios y generar constancias de forma automática.',
-          repo: 'https://github.com/andreaeraso/inventario_septiembre',
+          repo: 'https://github.com/julidiviu/inventario-sisprestamos',
           view: '', //ACTUALIZAR
           image_url: '/media/projects/Prestamos-Udenar.png',
           image_alt: 'Vista previa del proyecto Sistema de Préstamos e Inventario'
@@ -462,7 +462,7 @@ export const dictionaries: Record<Locale, Dictionary> = {
     
           desc: 'A web application developed for the University of Nariño to manage equipment loans, inventory, users, and automatically generate loan certificates.',
     
-          repo: 'https://github.com/andreaeraso/inventario_septiembre',
+          repo: 'https://github.com/julidiviu/inventario-sisprestamos',
     
           view: '',
     

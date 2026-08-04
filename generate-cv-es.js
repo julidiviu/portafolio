@@ -27,7 +27,7 @@ const cv = {
     ['2025 – 2026', 'Monitor Académico', 'Universidad de Nariño', 'Participé como monitor académico en el desarrollo de un sistema web para la gestión de préstamos e inventario de equipos tecnológicos usando Django REST Framework, Angular y PostgreSQL bajo metodología Scrum.']
   ],
   projects: [
-    ['Sistema de Préstamos e Inventario', 'Aplicación web desarrollada para la Universidad de Nariño que permite gestionar el préstamo de equipos, controlar el inventario, administrar usuarios y generar constancias de forma automática.', 'https://github.com/andreaeraso/inventario_septiembre'],
+    ['Sistema de Préstamos e Inventario', 'Aplicación web desarrollada para la Universidad de Nariño que permite gestionar el préstamo de equipos, controlar el inventario, administrar usuarios y generar constancias de forma automática.', 'https://github.com/julidiviu/inventario-sisprestamos'],
     ['Plataforma IPSUS', 'Plataforma web para la gestión de información y procesos internos, con autenticación, administración de datos y funcionalidades adaptadas a las necesidades del cliente.', 'https://gitlab.com/digitalroot-group/ipsus-frontend'],
     ['Portafolio', 'Portafolio personal multilenguaje construido con Next.js, diseñado para mostrar perfil profesional, experiencia, habilidades y proyectos.', 'https://github.com/julidiviu/portafolio']
   ],
