@@ -7,14 +7,15 @@ type TestimonialItem = {
   text: string
   author: string
   role: string
+  phone: string
 }
 
 export default function Testimonials({ lang }: { lang: Locale }) {
   const dict = getDictionary(lang).testimonials
   const items: TestimonialItem[] = [
-    { text: dict.t1_text, author: dict.t1_author, role: dict.t1_role },
-    { text: dict.t2_text, author: dict.t2_author, role: dict.t2_role },
-    { text: dict.t3_text, author: dict.t3_author, role: dict.t3_role },
+    { text: dict.t1_text, author: dict.t1_author, role: dict.t1_role, phone: dict.t1_phone },
+    { text: dict.t2_text, author: dict.t2_author, role: dict.t2_role, phone: dict.t2_phone },
+    { text: dict.t3_text, author: dict.t3_author, role: dict.t3_role, phone: dict.t3_phone },
   ]
 
   const canLoop = items.length > 1
@@ -114,6 +115,7 @@ export default function Testimonials({ lang }: { lang: Locale }) {
             <p className="testimonial-text">{item.text}</p>
             <p className="testimonial-author">{item.author}</p>
             <p className="testimonial-role">{item.role}</p>
+            <a className="testimonial-phone" href={`tel:${item.phone.replace(/\s+/g, '')}`}>{item.phone}</a>
           </article>
         ))}
       </div>
@@ -147,6 +149,7 @@ export default function Testimonials({ lang }: { lang: Locale }) {
                   <p className="testimonial-text">{item.text}</p>
                   <p className="testimonial-author">{item.author}</p>
                   <p className="testimonial-role">{item.role}</p>
+                  <a className="testimonial-phone" href={`tel:${item.phone.replace(/\s+/g, '')}`}>{item.phone}</a>
                 </article>
               )
             })}

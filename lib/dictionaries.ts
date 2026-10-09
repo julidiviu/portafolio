@@ -103,12 +103,15 @@ type Dictionary = {
     t1_text: string
     t1_author: string
     t1_role: string
+    t1_phone: string
     t2_text: string
     t2_author: string
     t2_role: string
+    t2_phone: string
     t3_text: string
     t3_author: string
     t3_role: string
+    t3_phone: string
   }
   contact: {
     title: string
@@ -255,9 +258,9 @@ export const dictionaries: Record<Locale, Dictionary> = {
         {
           title: 'Sistema de Préstamos e Inventario',
           desc: 'Aplicación web desarrollada para la Universidad de Nariño que permite gestionar el préstamo de equipos, controlar el inventario, administrar usuarios y generar constancias de forma automática.',
-          repo: 'https://github.com/julidiviu/inventario-sisprestamos',
-          view: 'https://inventario-sisprestamos.onrender.com', 
-          image_url: '/media/projects/Prestamos-Udenar.png',
+          repo: 'https://github.com/julidiviu/inventario-udenar-nextjs',
+          view: 'https://inventario-udenar-nextjs.vercel.app/', 
+          image_url: '/media/projects/Prestamos-Udenar2.png',
           image_alt: 'Vista previa del proyecto Sistema de Préstamos e Inventario'
         },
         {
@@ -287,12 +290,15 @@ export const dictionaries: Record<Locale, Dictionary> = {
       t1_text: '"Durante el tiempo que tuve la oportunidad de conocerlo, demostró ser una persona íntegra, honesta, responsable y comprometida con sus labores. Se caracteriza por su actitud proactiva, su disposición para aprender, su capacidad de trabajo en equipo y su facilidad para adaptarse a nuevos retos. Asimismo, es una persona puntual, respetuosa y confiable, que desempeña sus responsabilidades con dedicación y profesionalismo, generando confianza y aportando positivamente a cualquier equipo de trabajo.”',
       t1_author: 'Gloria Rodriguez Vallejo',
       t1_role: 'Secretaria Departamento de Sistemas / Universidad de Nariño',
+      t1_phone: '+57 315 4137921',
       t2_text: '"Durante el tiempo en que se desempeñó como monitor, demostró ser una persona responsable, comprometida y con una excelente disposición para el trabajo. En el desarrollo de sus funciones siempre cumplió con las actividades asignadas, demostrando iniciativa, interés por aprender y capacidad para resolver las situaciones que se presentaban. Asimismo, mantuvo una actitud respetuosa, colaborativa y profesional en su relación con docentes, estudiantes y demás integrantes de la facultad. Considero que Julián posee las competencias, la responsabilidad y la actitud necesarias para desempeñarse de manera satisfactoria en diferentes entornos laborales."',
       t2_author: 'Manuel Bolaños',
       t2_role: 'Director Departamento de Sistemas / Universidad de Nariño',
+      t2_phone: '+57 321 6417175',
       t3_text: '"Conozco a Julián desde hace algún tiempo y puedo decir que es una persona responsable, honesta y comprometida con lo que hace. Siempre se ha caracterizado por su buena disposición para aprender, trabajar en equipo y asumir nuevos retos. Es alguien confiable, respetuoso y dedicado, por lo que no dudo en recomendarlo tanto en el ámbito personal como profesional."',
       t3_author: 'Danilo Santacruz',
       t3_role: 'Ingeniero Ambiental / Independiente',
+      t3_phone: '+57 301 3791022',
     },
     contact: {
       title: 'Contacto',
@@ -351,7 +357,7 @@ export const dictionaries: Record<Locale, Dictionary> = {
       photo_alt: 'Portrait of Julian Cañar',
       linkedin_url: 'https://www.linkedin.com/in/julian-canar-stanxed/',
       github_url: 'https://github.com/julidiviu',
-      cv_url: '/media/cv/Julian_Canar_CV_ES.pdf',
+      cv_url: '/media/cv/Julian_Canar_CV_EN.pdf',
       linkedin_label: 'LinkedIn',
       github_label: 'GitHub',
     },
@@ -462,11 +468,11 @@ export const dictionaries: Record<Locale, Dictionary> = {
     
           desc: 'A web application developed for the University of Nariño to manage equipment loans, inventory, users, and automatically generate loan certificates.',
     
-          repo: 'https://github.com/julidiviu/inventario-sisprestamos',
+          repo: 'https://github.com/julidiviu/inventario-udenar-nextjs',
     
-          view: 'https://inventario-sisprestamos.onrender.com',
+          view: 'https://inventario-udenar-nextjs.vercel.app/',
     
-          image_url: '/media/projects/Prestamos-Udenar.png',
+          image_url: '/media/projects/Prestamos-Udenar2.png',
     
           image_alt: 'Loan & Inventory Management System'
         },
@@ -510,12 +516,15 @@ export const dictionaries: Record<Locale, Dictionary> = {
       t1_text: '"During the time I had the opportunity to know him, he proved to be an honest, responsible, and committed person. He is characterized by his proactive attitude, willingness to learn, ability to work in a team, and ease of adapting to new challenges. He is also punctual, respectful, and trustworthy, carrying out his responsibilities with dedication and professionalism, building trust and contributing positively to any team."',
       t1_author: 'Gloria Rodriguez Vallejo',
       t1_role: 'Secretary, Department of Systems / University of Nariño',
+      t1_phone: '+57 315 4137921',
       t2_text: '"During the time he worked as a monitor, he proved to be a responsible and committed person with an excellent willingness to work. In carrying out his duties, he always completed assigned activities, demonstrating initiative, an interest in learning, and the ability to solve situations as they arose. He also maintained a respectful, collaborative, and professional attitude in his relationships with professors, students, and other members of the faculty. I believe Julián has the skills, responsibility, and attitude needed to perform satisfactorily in different work environments."',
       t2_author: 'Manuel Bolaños',
       t2_role: 'Director, Department of Systems / University of Nariño',
+      t2_phone: '+57 321 6417175',
       t3_text: '"I have known Julián for some time and can say that he is a responsible, honest, and committed person. He has always been characterized by his willingness to learn, work in a team, and take on new challenges. He is trustworthy, respectful, and dedicated, so I do not hesitate to recommend him both personally and professionally."',
       t3_author: 'Danilo Santacruz',
       t3_role: 'Environmental Engineer / Independent',
+      t3_phone: '+57 301 3791022',
     },
     contact: {
       title: 'Contact',
